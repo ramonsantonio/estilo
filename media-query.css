@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 778px) {
+    
+    body {
+        max-width: 778px
+    }
+
+    .primero-h1 {
+        padding: 10px;
+    }
+    
+    .segundo {
+        display: block;
+        padding: 10px;
+    }
+
+    .segundo-segundo {
+      padding-top: 50px  ;
+    }
+
+    .terceiro {
+        display: block;
+        padding: 10px;
+    } 
+
+    .quarto {
+        display: block;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .quinto {
+        display: block;
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+
+    .quinto-img {
+        padding-top: 35px;
+        padding-left: 0%;
+    }
+
+    .sexta-h2 {
+        
+        width: 100%;
+	    height: 100%;
+    }
+
+    .sexta-p {
+        width: 100%;
+	    height: 100%;
+    }
+
+    .sexta-img { 
+        width: 70%;
+    }
+}
