@@ -58,6 +58,7 @@ body {
     width: 100%;
     height: 50%;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .primero-h1 {
@@ -65,47 +66,38 @@ body {
     padding-bottom: 30px;
 }
 
+/*Segundo*/
+
+
 .segundo {
+    color: white;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
-    
-}
-
-.segundo-primero-h3 {
-    padding-bottom: 20px;
-}
-
-.segundo-primero-p {
-    padding-bottom: 20px;
-}
-
-.segundo-primero-botao {
-    width: 90px;
-    height: 25px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #2970da;
     border-radius: 5px;
-    background-color: white;
-    border-color: #2970da;
-    color: #2970da;
-    
 }
 
-.segundo-segundo-h3 {
-    padding-bottom: 20px;
+.img-truck {
+    width: 100px;
 }
 
-.segundo-segundo-p {
-    padding-bottom: 20px;
-}
-
-.segundo-segundo-botao {
+.img-card {
     width: 90px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border-color: #2970da;
-    color: #2970da;
-    
 }
+
+.segundo-card-h3 {
+    padding-top: 10px;
+}
+
+.img-security {
+    width: 50px;
+}
+
+/*Terceiro*/
+
 
 .terceiro {
     display: flex;
@@ -147,6 +139,10 @@ body {
     border-color: #2970da;
     color: #2970da;
 }
+
+
+/*Quarto*/
+
 
 .quarto {
     display: flex;
@@ -320,6 +316,7 @@ li {
 
 .final-botao {
     display: block;
+    
 }
 
 .final-botao-primeiro {
@@ -329,6 +326,7 @@ li {
     background-color: #2970da;
     color: white;
     border: 0px;
+    
 }
 
 .final-botao-segundo {
@@ -338,6 +336,7 @@ li {
     background-color: white;
     border-color: #2970da;
     color: #2970da;
+    
 }
 
 footer{
