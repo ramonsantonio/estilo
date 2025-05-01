@@ -88,6 +88,7 @@ body {
     width: 90px;
 }
 
+<<<<<<< HEAD
 .segundo-card-h3 {
     padding-top: 10px;
 }
@@ -103,42 +104,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
+=======
+>>>>>>> 22abcd95587048910216097de5beabd111f1be9f
 
-.terceiro-primero-h3 {
-    padding-top: 70px;
-    padding-bottom: 20px;
-}
-
-.terceiro-primero-p {
-    padding-bottom: 20px;
-}
-
-.terceiro-primero-botao {
-    width: 90px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border-color: #2970da;
-    color: #2970da;
-}
-
-.terceiro-segundo-h3 {
-    padding-top: 70px;
-    padding-bottom: 20px;
-} 
-
-.terceiro-segundo-p {
-    padding-bottom: 20px;
-}
-
-.terceiro-segundo-botao {
-    width: 90px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border-color: #2970da;
-    color: #2970da;
-}
 
 
 /*Quarto*/
@@ -341,5 +309,10 @@ li {
 
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 40px;
+}
+
+footer > strong > a {
+    text-decoration: none;
+    color: black;
 }
