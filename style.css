@@ -86,33 +86,8 @@ body {
 
 .img-card {
     width: 90px;
-}
+}Quarto*/
 
-<<<<<<< HEAD
-.segundo-card-h3 {
-    padding-top: 10px;
-}
-
-.img-security {
-    width: 50px;
-}
-
-/*Terceiro*/
-
-
-.terceiro {
-    display: flex;
-    justify-content: space-between;
-}
-=======
->>>>>>> 22abcd95587048910216097de5beabd111f1be9f
-
-
-
-/*Quarto*/
-
-
-.quarto {
     display: flex;
     justify-content: space-between;
     align-items: center;
