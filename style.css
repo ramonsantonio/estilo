@@ -86,8 +86,14 @@ body {
 
 .img-card {
     width: 90px;
-}Quarto*/
+    
 
+}
+
+/*Quarto*/
+
+
+.quarto {
     display: flex;
     justify-content: space-between;
     align-items: center;
