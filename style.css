@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* Geral */
 * {
     margin: 0%;
     padding: 0%;
@@ -11,15 +13,17 @@ body {
     margin: auto;
 }
 
-.inicio{
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-    padding-top: 30px;
+/* inicio */
 
+.inicio {
+    padding: 40px 4%;
+    display: flex;
+}
+.flex {
+    
 }
 
-.inicio-img {
+.inicio-img img {
     width: 100px;
     
 }
