@@ -11,7 +11,32 @@ body {
     margin: auto;
 }
 
-.inicio{
+.flex {
+    display: flex;
+   
+}
+
+.sessao {
+    color: #2970da;
+}
+
+.roupas {
+    width: 250px;
+}
+
+.roupas-p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.roupas-h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Cabeçalho */
+
+.inicio {
     display: flex;
     justify-content: space-around;
     gap: 40px;
@@ -54,120 +79,18 @@ body {
     color: #2970da;
 }
 
-.primeiro-img {
+
+/* Banner */
+
+.banner-img img {
     width: 100%;
     height: 50%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.primero-h1 {
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
 
-/*Segundo*/
-
-
-.segundo {
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #2970da;
-    border-radius: 5px;
-}
-
-.img-truck {
-    width: 100px;
-}
-
-.img-card {
-    width: 90px;
-    
-
-}
-
-/*Quarto*/
-
-
-.quarto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
-}
-
-.quarto-img {
-    width: 50%;
-    padding-top: 90px;
-    padding-left: 10px;
-    padding-right: 40px;
-    padding-bottom: 50px;
-
-    
-}
-
-.quarto-h3 {
-    padding-bottom: 10px;
-    padding-right: 20px;
-}
-
-.quarto-p {
-    padding-bottom: 0px;
-    padding-right: 10px;
-}
-
-.quinto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f1f1f1;
-}
-
-.quinto-h3 {
-    padding-bottom: 10px;
-    padding-left: 5px;
-}
-
-.quinto-p {
-    padding-bottom: 0px;
-    padding-left: 5px;
-}
-
-.quinto-img {
-    width: 50%;
-    padding-top: 90px;
-    padding-right: 20px;
-    padding-left: 40px;
-    padding-bottom: 50px;
-}
-
-.sexta {
-    align-items: center;
-
-}
-
-.sexta-h2 {
-    padding-top: 100px;
-    text-align: center;
-    padding-top: 150px;
-}
-
-.sexta-p {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.sexta-img {
-    width: 100%;
-    padding-top: 40px;
-    text-align: center;
-
-}
+/* newsletter */
 
 .oitavo {
     text-align: center;
@@ -202,6 +125,8 @@ body {
     border-color: #2970da;
     color: #2970da;
 }
+
+/* Final */
 
 .final {
     display: flex;
@@ -287,6 +212,8 @@ li {
     color: #2970da;
     
 }
+
+/* Fundo do Site */
 
 footer{
     text-align: center;
