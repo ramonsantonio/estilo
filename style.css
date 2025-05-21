@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* Geral */
 * {
     margin: 0%;
     padding: 0%;
@@ -11,40 +13,14 @@ body {
     margin: auto;
 }
 
+.inicio{
+    display: flex;
+}
 .flex {
-    display: flex;
-   
+    
 }
 
-.sessao {
-    color: #2970da;
-}
-
-.roupas {
-    width: 250px;
-}
-
-.roupas-p {
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.roupas-h3 {
-    text-align: center;
-    padding-bottom: 15px;
-}
-
-/* Cabeçalho */
-
-.inicio {
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-    padding-top: 30px;
-
-}
-
-.inicio-img {
+.inicio-img img {
     width: 100px;
     
 }
