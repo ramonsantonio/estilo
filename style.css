@@ -105,6 +105,7 @@ body {
 
 .novidades .flex {
     display: flex;
+    justify-content: space-between;
 }
 
 .novidades-img img {
