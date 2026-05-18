@@ -136,13 +136,14 @@ body {
 
 .banner2 {
     text-align: center;
+    padding: 15px 4%;
 }
 
 .banner2-img img {
     width: 900px;
     height: 500px;
     border-radius: 15px;
-    margin: 65px;
+    
 }
 
 /* Final */
