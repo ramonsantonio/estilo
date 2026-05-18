@@ -12,14 +12,31 @@ body {
     margin: auto;
 }
 
+
+.button-ver  {
+    background-color: #5e17eb;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 40px;
+}
+
+.button-ver:hover {
+    transition: .5s;
+    background-color: #ffcc00;
+}
+
+ 
+/*Menu*/
+
 .inicio{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 20px 4%;
 }
 
-.flex {
+.inicio .flex {
     display: flex;
 }
 
@@ -40,25 +57,20 @@ body {
     
 }
 
-.inicio-botao-primeiro {
-    width: 90px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: #5e17eb;
-    color: white;
-    border: 0px;
+
+/*Mobile*/
+
+.menu-mobile {
+    display: none;
 }
 
-.button-compra  {
-    background-color: #5e17eb;
-    width: 100px;
-    height: 30px;
+#menu {
+    display: none;
 }
 
-.button-compra a {
-    color: white;
-    align-items: center;
-}
+
+/*PADRÃO*/
+
 
 /* Banner */
 
@@ -80,55 +92,35 @@ body {
     padding: 40px 4px;
 }
 
+.novidades .flex {
+    display: flex;
+}
+
 .novidades-img img {
     width: 300px;
 }
 
-.novidades-titulo {
-    text-align: center;
-}
-
 .novidades-sub {
+    margin-bottom: 35px;
+}
+
+.camisa {
+    text-align: center;
+}
+
+.calça {
+    text-align: center;
+}
+
+.saia {
+    text-align: center;
+}
+
+.sapato {
     text-align: center;
 }
 
 
-
-/* newsletter */
-
-.oitavo {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    box-shadow: 10px 5px 50px 2px rgba(0, 0, 0, 0.199);
-}
-
-.oitavo-h2 {
-    color: #5e17eb;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.oitavo-p{
-    padding-bottom: 15px;
-}
-
-.oitavo-email {
-    width: 330px;
-    height: 20px;
-    background-color: white;
-    border-color: #5e17eb;
-    color: #5e17eb;
-}
-
-.oitavo-submit {
-    width: 100px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border-color: #5e17eb;
-    color: #5e17eb;
-}
 
 /* Final */
 
@@ -173,8 +165,6 @@ li {
 .final-segundo-ul > li > a { 
     color: black;
     text-decoration: none;
-   
-    
 }
 
 .final-terceiro {
@@ -196,15 +186,7 @@ li {
     
 }
 
-.final-botao-primeiro {
-    width: 90px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: #5e17eb;
-    color: white;
-    border: 0px;
-    
-}
+
 
 /* Fundo do Site */
 
@@ -216,4 +198,42 @@ footer{
 footer > strong > a {
     text-decoration: none;
     color: black;
+}
+
+
+
+@media (max-width: 579px){
+   
+    .inicio-menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        font-size: 34px;
+    }
+
+    .novidades .flex {
+        display: block;
+    }
+
+    .novidades-img img {
+        margin-top: 20px;
+    }
+
+    .final {
+        display: block;
+    }
+
+    .final-primeiro {
+        margin-top: 20px;
+    }
+
+    .final-segundo {
+        margin-top: 20px;
+    }
+
+    .final-terceiro {
+        margin-top: 20px;
+    }
 }
