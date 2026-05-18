@@ -9,30 +9,33 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 1000px;
     margin: auto;
 }
 
 .inicio{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 4%;
 }
+
 .flex {
     display: flex;
 }
 
 .inicio-img img {
-    width: 100px;
+    width: 150px;
     
 }
 
 .inicio-menu {
     background-color: white;
-    padding-bottom: 30px;
+
 }
 
 .inicio-menu > a {
     text-decoration: none;
-    color: #2970da;
+    color: #5e17eb;
     padding-left: 20px;
     
 }
@@ -41,20 +44,21 @@ body {
     width: 90px;
     height: 25px;
     border-radius: 5px;
-    background-color: #2970da;
+    background-color: #5e17eb;
     color: white;
     border: 0px;
 }
 
-.inicio-botao-segundo {
-    width: 90px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border-color: #2970da;
-    color: #2970da;
+.button-compra  {
+    background-color: #5e17eb;
+    width: 100px;
+    height: 30px;
 }
 
+.button-compra a {
+    color: white;
+    align-items: center;
+}
 
 /* Banner */
 
@@ -64,6 +68,30 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
+/*Novidades*/
+
+.sessao h2 {
+    color: #5e17eb;
+}
+
+.novidades {
+    padding: 40px 4px;
+}
+
+.novidades-img img {
+    width: 300px;
+}
+
+.novidades-titulo {
+    text-align: center;
+}
+
+.novidades-sub {
+    text-align: center;
+}
+
 
 
 /* newsletter */
@@ -76,7 +104,7 @@ body {
 }
 
 .oitavo-h2 {
-    color: #2970da;
+    color: #5e17eb;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -89,8 +117,8 @@ body {
     width: 330px;
     height: 20px;
     background-color: white;
-    border-color: #2970da;
-    color: #2970da;
+    border-color: #5e17eb;
+    color: #5e17eb;
 }
 
 .oitavo-submit {
@@ -98,8 +126,8 @@ body {
     height: 25px;
     border-radius: 5px;
     background-color: white;
-    border-color: #2970da;
-    color: #2970da;
+    border-color: #5e17eb;
+    color: #5e17eb;
 }
 
 /* Final */
@@ -109,8 +137,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 30px 10px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 li {
@@ -173,19 +200,9 @@ li {
     width: 90px;
     height: 25px;
     border-radius: 5px;
-    background-color: #2970da;
+    background-color: #5e17eb;
     color: white;
     border: 0px;
-    
-}
-
-.final-botao-segundo {
-    width: 90px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border-color: #2970da;
-    color: #2970da;
     
 }
 
@@ -193,7 +210,7 @@ li {
 
 footer{
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 footer > strong > a {
