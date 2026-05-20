@@ -32,7 +32,7 @@ body {
 
 .inicio{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px 4%;
 }
 
@@ -85,7 +85,7 @@ body {
 
 .come .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .come-img img {
@@ -97,6 +97,8 @@ body {
 
 .sessao h2 {
     color: #5e17eb;
+    text-align: center;
+    margin-bottom: 70px;
 }
 
 .novidades {
@@ -105,14 +107,18 @@ body {
 
 .novidades .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .novidades-img img {
     width: 300px;
 }
 
-.novidades-sub {
+.novidades-sub s {
+    color: rgba(0, 0, 0, 0.329);
+}
+
+.star {
     margin-bottom: 35px;
 }
 
@@ -141,7 +147,7 @@ body {
 }
 
 .banner2-img img {
-    width: 900px;
+    width: 1100px;
     height: 500px;
     border-radius: 15px;
     
@@ -150,9 +156,10 @@ body {
 /* Final */
 
 .final {
+    background-color: #ffcc00;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 30px 10px;
     padding: 50px;
 }
@@ -166,7 +173,7 @@ li {
 }
 
 .final-primeiro {
-    color: black;
+    color: #5e17eb;
 }
 
 .final-primeiro-h4 {
@@ -180,7 +187,7 @@ li {
 }
 
 .final-segundo {
-    color: black;
+    color: #5e17eb;
 }
 
 .final-segundo-h4 {
@@ -193,7 +200,7 @@ li {
 }
 
 .final-terceiro {
-    color: black;
+    color: #5e17eb;
 }
 
 .final-terceiro-h4 {
@@ -216,12 +223,12 @@ li {
 /* Fundo do Site */
 
 footer{
+    background-color: #ffcc00;
     text-align: center;
     padding: 20px;
 }
 
 footer > strong > a {
-    text-decoration: none;
     color: black;
 }
 
